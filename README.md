@@ -67,7 +67,7 @@ ibm-z-mainframe-lab/
 This portfolio is organized sequentially, following the IBM Z Xplore challenge map:
 
 1.  **Fundamentals (Folders 01-07):** Covers the basics of connecting to the mainframe, navigating z/OS, and running initial jobs.
-2.  **Concepts (Folders 08-12):** Deep dives into the architecture, security, and scalability that make IBM Z unique.
+<!--2.  **Concepts (Folders 08-12):** Deep dives into the architecture, security, and scalability that make IBM Z unique.-->
 
 Each folder contains a `README` with screenshots of the exercise and the actual code snippets (JCL, REXX, Python) used to solve the challenges.
 
