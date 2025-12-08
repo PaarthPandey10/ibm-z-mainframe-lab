@@ -32,6 +32,7 @@ ibm-z-mainframe-lab/
 ├── 01-vsc1-connect/
 │   ├── README.md
 │   └── screenshots/
+<!--
 ├── 02-files1-datasets/
 │   ├── README.md
 │   └── member-list.txt
@@ -54,6 +55,7 @@ ibm-z-mainframe-lab/
 │   ├── README.md
 │   └── racf-concepts.md
 └── ... (additional concept modules)
+-->
 ```
 
 -----
