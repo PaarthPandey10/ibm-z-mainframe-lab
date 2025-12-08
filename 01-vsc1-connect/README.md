@@ -1,4 +1,4 @@
-# [VSC1: Connect to Z]
+# VSC1: Connect to Z
 
 > Setting up the modern mainframe development environment using VS Code and Zowe Explorer.
 
