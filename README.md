@@ -31,6 +31,7 @@ My goal with this lab is to demonstrate hands-on proficiency with legacy and mod
 ibm-z-mainframe-lab/
 ├── 01-vsc1-connect/
 │   ├── README.md
+│   ├── 01-visual-guide.md
 │   └── screenshots/
 └────
 ```
