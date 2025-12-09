@@ -40,10 +40,10 @@
 
 ## What I Learned
 
-- [cite_start]How to install and configure **IBM Z Open Editor** for VS Code [cite: 12]
-- [cite_start]How to create and edit a **Zowe Team Configuration** file (`zowe.config.json`) [cite: 15]
-- [cite_start]How to bypass self-signed certificate errors for lab environments (`rejectUnauthorized: false`) [cite: 17]
-- [cite_start]How to navigate MVS datasets and submit JCL jobs without a green screen [cite: 29]
+- How to install and configure **IBM Z Open Editor** for VS Code 
+- How to create and edit a **Zowe Team Configuration** file (`zowe.config.json`) 
+- How to bypass self-signed certificate errors for lab environments (`rejectUnauthorized: false`) 
+- How to navigate MVS datasets and submit JCL jobs without a green screen 
 
 ---
 
