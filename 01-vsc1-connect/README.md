@@ -1,4 +1,4 @@
-# VSC1: Connect to Z
+# [VSC1: Connect to Z]
 
 > Setting up the modern mainframe development environment using VS Code and Zowe Explorer.
 
@@ -14,18 +14,18 @@ This setup bridges the gap between modern DevOps tooling and legacy mainframe in
 
 ## Key Highlights
 
-- [cite_start]**Environment Configuration:** Installed Node.js and the IBM Z Open Editor extension to enable mainframe language support (COBOL, JCL, REXX)[cite: 26, 212].
-- [cite_start]**Zowe Profile Setup:** Configured a Zowe Team Configuration (`zowe.config.json`) to connect to the IBM Z host at `204.90.115.200` on port `10443`[cite: 318, 367].
-- [cite_start]**Security Bypass:** Configured the profile to handle self-signed certificates by setting `rejectUnauthorized: false` for the lab environment[cite: 369].
-- [cite_start]**Connection Validation:** Successfully filtered datasets using my Z-ID and submitted the validation job `CHKVSC` located in `ZXP.PUBLIC.JCL` to confirm system access[cite: 598, 626].
+- **Environment Configuration:** Installed Node.js and the IBM Z Open Editor extension to enable mainframe language support (COBOL, JCL, REXX).
+- **Zowe Profile Setup:** Configured a Zowe Team Configuration (`zowe.config.json`) to connect to the IBM Z host at `204.90.115.200` on port `10443`.
+- **Security Bypass:** Configured the profile to handle self-signed certificates by setting `rejectUnauthorized: false` for the lab environment.
+- **Connection Validation:** Successfully filtered datasets using my Z-ID and submitted the validation job `CHKVSC` located in `ZXP.PUBLIC.JCL` to confirm system access.
 
 ---
 
 ## Technical Details
 
 - **Host IP:** `204.90.115.200`
-- [cite_start]**Port:** `10443` (z/OSMF) [cite: 318]
-- [cite_start]**Validation Job:** `ZXP.PUBLIC.JCL(CHKVSC)` [cite: 598]
+- **Port:** `10443` (z/OSMF)
+- **Validation Job:** `ZXP.PUBLIC.JCL(CHKVSC)`
 - **Tools:** Zowe Explorer, IBM Z Open Editor
 
 ---
