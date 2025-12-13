@@ -37,7 +37,7 @@ ibm-z-mainframe-lab/
 │   ├── README.md
 │   ├── 02-visual-guide.md
 │   └── screenshots/
-└────
+└──/
 ```
 <!--
 ├── 02-files1-datasets/
