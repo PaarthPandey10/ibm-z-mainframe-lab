@@ -33,6 +33,10 @@ ibm-z-mainframe-lab/
 │   ├── README.md
 │   ├── 01-visual-guide.md
 │   └── screenshots/
+├── 02-files1-manage/
+│   ├── README.md
+│   ├── 02-visual-guide.md
+│   └── screenshots/
 └────
 ```
 <!--
