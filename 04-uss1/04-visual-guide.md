@@ -7,60 +7,40 @@
 ## Step-by-Step Screenshots
 
 ### ✅ Step 1: Connect via SSH
-*Opening the integrated terminal in VS Code and connecting to the z/OS system using the SSH protocol. This establishes a secure text-based session with the mainframe.*
+*Opening the PowerShell terminal on Windows and connecting to the z/OS system using the SSH protocol. I confirmed the host authenticity and logged in as user `z87191`.*
 ![Step 1](./screenshots/01.png)
 
----
-
-### ✅ Step 2: Workspace Initialization
-*Running the `uss-setup` command. This script populates the previously empty home directory with the Python scripts and Shell scripts required for the challenge.*
+### ✅ Step 2: Navigation & File Creation
+*Exploring the directory structure. I navigated into the `test` directory to read the `hello-there` file, then returned to the home directory to create a new empty file using `touch mynewfile`.*
 ![Step 2](./screenshots/02.png)
 
----
-
-### ✅ Step 3: Navigating and Inspecting
-*Using `ls -l` to list files with details. Note the `x` (executable) permission on `scramble.sh`, indicating it is a program we can run.*
+### ✅ Step 3: The Scramble Challenge (Trial & Error)
+*Running the decryption script. I initially tried a rotation key of **12**, which resulted in gibberish (`xjibmv...`). After further deduction, I found the correct rotation key was **17**, which successfully revealed the message: "congratulations! you unscrambled the message..."*
 ![Step 3](./screenshots/03.png)
 
----
-
-### ✅ Step 4: The Scramble Challenge
-*Running `./scramble.sh /z/public/secret.txt 9`. The script takes a file path and a number (rotation key) as arguments. Through trial and error (deduction), the correct rotation key was found to be 9, revealing the readable text.*
+### ✅ Step 4: Redirection & Appending
+*Once the key (17) was confirmed, I used output redirection (`>`) to save the decoded message to `ussout.txt`. I then used the append operator (`>>`) to add the current system `date` to the bottom of the file.*
 ![Step 4](./screenshots/04.png)
 
----
-
-### ✅ Step 5: Redirecting Output
-*Once the code was broken, I used the redirection operator `>` to save the output to `ussout.txt` instead of printing it to the screen. This created the validation file.*
+### ✅ Step 5: Final Validation
+*Checking the Zowe Explorer "JOBS" view to verify the submission. The validation job `chkuss1(JOB07233)` completed with **CC 0000**, confirming the challenge was passed successfully.*
 ![Step 5](./screenshots/05.png)
-
----
-
-### ✅ Step 6: Appending System Data
-*To complete the log, I used the append operator `>>` to add the output of `du -ak` (disk usage in kilobytes) and `date` (current timestamp) to the bottom of `ussout.txt` without overwriting the decoded message.*
-![Step 6](./screenshots/06.png)
-
----
-
-### ✅ Step 7: Zowe USS Explorer
-*Verifying the file creation using the Zowe Explorer extension GUI. This allows for easy viewing and editing of UNIX files directly within the VS Code editor interface.*
-![Step 7](./screenshots/07.jpg)
 
 ---
 
 ## What I Learned
 
-- **SSH (Secure Shell):** How to remotely access the z/OS UNIX command line interface.
-- **The "Everything is a File" Philosophy:** Treating scripts, text, and directories as standard UNIX objects.
-- **I/O Redirection:** The power of `>` and `>>` to chain commands and save outputs for logging or auditing.
-- **Hybrid Nature of z/OS:** Realizing that the mainframe supports modern open standards (POSIX) alongside traditional JCL/COBOL workflows.
+- **SSH (Secure Shell):** How to remotely access the z/OS UNIX command line interface from a Windows PowerShell environment.
+- **Trial & Error:** Using standard shell execution (`./scramble.sh`) to test different arguments (rotation keys 12 and 17) until the logic held up.
+- **I/O Redirection:** The power of `>` to create files from output and `>>` to append log data like timestamps.
+- **Zowe Integration:** Using the Zowe Explorer to instantly verify JCL job completion codes (`CC 0000`) without leaving VS Code.
 
 ---
 
 ## Notes
 
-- **Tab Completion:** Used the `Tab` key to auto-complete long filenames like `directory1` and `scramble.sh`, speeding up the workflow.
-- **Home Directory:** The tilde `~` shortcut was used to quickly return to the home directory (`/z/z#####`) from deep within the file structure.
+- **Identity:** Logged in as `z87191` on IP `204.90.115.200`.
+- **Command History:** Utilized `cd`, `ls`, `cat`, `touch`, and `./` execution throughout the lab.
 
 ---
 
