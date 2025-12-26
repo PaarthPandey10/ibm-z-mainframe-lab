@@ -29,7 +29,7 @@ My goal with this lab is to demonstrate hands-on proficiency with legacy and mod
 
 ```
 ibm-z-mainframe-lab/
-└── fundamentals/
+└── 01-fundamentals/
     ├── 01-vsc1/
     │   ├── screenshots/
     │   ├── 01-visual-guide.md
