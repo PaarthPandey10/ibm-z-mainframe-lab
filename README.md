@@ -29,41 +29,38 @@ My goal with this lab is to demonstrate hands-on proficiency with legacy and mod
 
 ```
 ibm-z-mainframe-lab/
-├── 01-vsc1-connect/
-│   ├── README.md
-│   ├── 01-visual-guide.md
-│   └── screenshots/
-├── 02-files1-manage/
-│   ├── README.md
-│   ├── 02-visual-guide.md
-│   └── screenshots/
-└──/
+└── fundamentals/
+    ├── 01-vsc1/
+    │   ├── screenshots/
+    │   ├── 01-visual-guide.md
+    │   └── README.md
+    ├── 02-files1/
+    │   ├── screenshots/
+    │   ├── 02-visual-guide.md
+    │   └── README.md
+    ├── 03-jcl1/
+    │   ├── screenshots/
+    │   ├── 03-visual-guide.md
+    │   └── README.md
+    ├── 04-uss1/
+    │   ├── screenshots/
+    │   ├── 04-visual-guide.md
+    │   └── README.md
+    ├── 05-code1/
+    │   ├── screenshots/
+    │   ├── 05-visual-guide.md
+    │   └── README.md
+    ├── 06-rexx1/
+    │   ├── screenshots/
+    │   ├── 06-visual-guide.md
+    │   └── README.md
+    ├── 07-wrapup/
+    │   ├── screenshots/
+    │   ├── 07-visual-guide.md
+    │   └── README.md
+    ├── LICENSE
+    └── README.md
 ```
-<!--
-├── 02-files1-datasets/
-│   ├── README.md
-│   └── member-list.txt
-├── 03-jcl1-job-control/
-│   ├── README.md
-│   └── job-submit.jcl
-├── 04-uss-unix-services/
-│   ├── README.md
-│   └── shell-commands.sh
-├── 05-code-python-intro/
-│   ├── README.md
-│   └── data-parse.py
-├── 06-rexx1-scripting/
-│   ├── README.md
-│   └── automation.rexx
-├── 07-fundamentals-wrap-up/
-│   ├── README.md
-│   └── completion-certificate.png
-├── 08-security-privacy/
-│   ├── README.md
-│   └── racf-concepts.md
-└── ... (additional concept modules)
--->
-
 
 -----
 
