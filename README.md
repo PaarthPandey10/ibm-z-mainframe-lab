@@ -23,6 +23,9 @@ This repository documents my journey through the **IBM Z Xplore** learning platf
 
 My goal with this lab is to demonstrate hands-on proficiency with legacy and modern mainframe technologies, specifically focusing on how these systems integrate with modern DevOps pipelines and security protocols (RACF, USS).
 
+Upcoming Additions:
+Advanced Badge Challenges.
+
 ---
 
 ## Project Structure
