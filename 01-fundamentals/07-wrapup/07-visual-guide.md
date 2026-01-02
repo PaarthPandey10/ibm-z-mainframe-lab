@@ -37,10 +37,10 @@
 
 ## What I Learned
 
-- [cite_start]**ZOAU (Z Open Automation Utilities):** How to bridge the gap between traditional z/OS tasks and modern scripting languages like Python[cite: 409].
-- [cite_start]**DECHO:** A handy command-line utility for quickly appending text to datasets without full interactive editing[cite: 434].
-- [cite_start]**Python Modules:** Using `zoautil_py.datasets` to create/write files and `zoautil_py.zsystem` to query system information like the Linklist[cite: 547, 609].
-- [cite_start]**Automation Logic:** Writing a script that checks for file existence, prompts user input, and handles system data dynamically[cite: 507, 560].
+- **ZOAU (Z Open Automation Utilities):** How to bridge the gap between traditional z/OS tasks and modern scripting languages like Python.
+- **DECHO:** A handy command-line utility for quickly appending text to datasets without full interactive editing.
+- **Python Modules:** Using `zoautil_py.datasets` to create/write files and `zoautil_py.zsystem` to query system information like the Linklist.
+- **Automation Logic:** Writing a script that checks for file existence, prompts user input, and handles system data dynamically.
 
 ---
 
@@ -48,7 +48,7 @@
 
 - **User ID:** `Z87191`
 - **Script Used:** `members.py`
-- [cite_start]**Output Dataset:** `Z87191.COMPLETE` containing the system Linklist[cite: 634].
+- **Output Dataset:** `Z87191.COMPLETE` containing the system Linklist.
 
 ---
 
