@@ -8,7 +8,7 @@
 
 This directory documents the **Advanced** phase of my IBM Z Xplore journey. While the Fundamentals module focused on bridging modern tools with the mainframe, this module shifts focus to the underlying architecture.
 
-The objective is to peel back the layers of high-level languages and understand how the machine actually processes instructions. [cite_start]This involves working directly with **Assembler**, understanding memory management, registers, and the compilation process on z/Architecture[cite: 32, 44].
+The objective is to peel back the layers of high-level languages and understand how the machine actually processes instructions. This involves working directly with **Assembler**, understanding memory management, registers, and the compilation process on z/Architecture.
 
 ---
 
@@ -23,8 +23,8 @@ The objective is to peel back the layers of high-level languages and understand 
 
 ## Features / Highlights
 
--   [cite_start]**Low-Level Control:** Moving away from abstractions to understand how **Assembler** manipulates hardware directly for high-security and real-time performance[cite: 46, 48].
--   [cite_start]**Compilation Pipeline:** Manually managing the build process: converting Source Code (`.s`) $\to$ Object File (`.o`) $\to$ Executable Binary[cite: 207, 208].
+-   **Low-Level Control:** Moving away from abstractions to understand how **Assembler** manipulates hardware directly for high-security and real-time performance.
+-   **Compilation Pipeline:** Manually managing the build process: converting Source Code (`.s`) $\to$ Object File (`.o`) $\to$ Executable Binary.
 -   **System Services:** Interfacing directly with z/OS UNIX System Services (USS) to execute binary programs.
 
 ---
