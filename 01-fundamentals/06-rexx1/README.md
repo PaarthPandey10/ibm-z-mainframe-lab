@@ -6,7 +6,7 @@
 
 ## Overview
 
-This module documents the **REXX1** challenge of the IBM Z Xplore series. [cite_start]This challenge introduces **REXX** (Restructured Extended Executor), a scripting language often referred to as "Enterprise IT Duct Tape" due to its versatility[cite: 6, 26]. The primary objective was to move beyond the VS Code GUI and install the **Zowe CLI** on the local machine, allowing for direct command-line interaction with the mainframe. The lab concluded with managing TSO address spaces to play an interactive number-guessing game.
+This module documents the **REXX1** challenge of the IBM Z Xplore series. This challenge introduces **REXX** (Restructured Extended Executor), a scripting language often referred to as "Enterprise IT Duct Tape" due to its versatility. The primary objective was to move beyond the VS Code GUI and install the **Zowe CLI** on the local machine, allowing for direct command-line interaction with the mainframe. The lab concluded with managing TSO address spaces to play an interactive number-guessing game.
 
 ---
 
@@ -14,7 +14,7 @@ This module documents the **REXX1** challenge of the IBM Z Xplore series. [cite_
 
 - **Zowe CLI Installation:**
   - Installed the `@zowe/cli` package globally using npm (`Node Package Manager`) on Windows.
-  - [cite_start]Configured TSO and z/OSMF profiles to enable secure, password-less communication with the host[cite: 231].
+  - Configured TSO and z/OSMF profiles to enable secure, password-less communication with the host.
 - **Data Set Management:**
   - Copied source members `SOMEREXX` and `GUESSNUM` from `ZXP.PUBLIC.SOURCE` to the personal dataset `Z87191.SOURCE` using Zowe Explorer.
 - **REXX Execution:**
@@ -28,15 +28,15 @@ This module documents the **REXX1** challenge of the IBM Z Xplore series. [cite_
 ## Technical Details
 
 - **Language:** REXX (Restructured Extended Executor)
-- [cite_start]**Validation Job:** `ZXP.PUBLIC.JCL(CHKREXX1)`[cite: 369]
+- **Validation Job:** `ZXP.PUBLIC.JCL(CHKREXX1)`
 - **Key Commands:**
-  - [cite_start]`npm i -g @zowe/cli` (Installation)[cite: 99]
-  - [cite_start]`zowe tso issue command` (Single execution)[cite: 265]
-  - [cite_start]`zowe tso start as` (Start Address Space)[cite: 280]
-  - [cite_start]`zowe tso send as` (Send input to Address Space)[cite: 353]
+  - `npm i -g @zowe/cli` (Installation)
+  - `zowe tso issue command` (Single execution)
+  - `zowe tso start as` (Start Address Space)
+  - `zowe tso send as` (Send input to Address Space)
 - **Key Concepts:**
-  - [cite_start]**TSO (Time Sharing Option):** The command-line interface for z/OS[cite: 316].
-  - [cite_start]**Address Space:** A block of memory allocated for running programs; required for keeping an interactive session "alive"[cite: 318].
+  - **TSO (Time Sharing Option):** The command-line interface for z/OS.
+  - **Address Space:** A block of memory allocated for running programs; required for keeping an interactive session "alive".
 
 ---
 
