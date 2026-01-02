@@ -14,15 +14,15 @@ This lab demonstrates how to instruct the z/OS operating system to allocate reso
 
 ## Key Highlights
 
-- [cite_start]**Environment Initialization:** Submitted the `JCLSETUP` job to allocate the required `LOAD`, `SOURCE`, and `OUTPUT` datasets[cite: 46].
+- **Environment Initialization:** Submitted the `JCLSETUP` job to allocate the required `LOAD`, `SOURCE`, and `OUTPUT` datasets.
 - **Job Submission & Analysis:**
   - Learned to submit jobs directly from Zowe Explorer.
   - Interpreted JES2 output, specifically Condition Codes (CC 0000 vs CC 0012 vs Abends).
 - **Debugging Logic:**
-  - [cite_start]**JCL1 (Copy Job):** Identify and fix a missing `SYSIN DD` statement to allow the `IEBGENER` utility to run successfully[cite: 237].
-  - [cite_start]**JCL2 (COBOL Compile):** Debugged a linkage error where the JCL DD name (`//COMBINE`) did not match the COBOL internal file definition (`SELECT... ASSIGN TO COMBINED`)[cite: 345].
-  - [cite_start]**JCL3 (In-Stream Data):** Managed in-stream data using `DD *` to create a formatted train schedule, correcting duplicates and record layouts[cite: 363].
-- [cite_start]**Validation:** Submitted the `CHKJCL1` job to verify the output of all previous steps[cite: 513].
+  - **JCL1 (Copy Job):** Identify and fix a missing `SYSIN DD` statement to allow the `IEBGENER` utility to run successfully.
+  - **JCL2 (COBOL Compile):** Debugged a linkage error where the JCL DD name (`//COMBINE`) did not match the COBOL internal file definition (`SELECT... ASSIGN TO COMBINED`).
+  - **JCL3 (In-Stream Data):** Managed in-stream data using `DD *` to create a formatted train schedule, correcting duplicates and record layouts.
+- **Validation:** Submitted the `CHKJCL1` job to verify the output of all previous steps.
 
 ---
 
