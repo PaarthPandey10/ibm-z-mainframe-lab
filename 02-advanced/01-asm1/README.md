@@ -6,21 +6,21 @@
 
 ## Overview
 
-This module documents the **ASM1** challenge, the entry point into the Advanced IBM Z Xplore badge. [cite_start]The challenge demystifies the compilation process by taking a raw Assembler source file (`fibonacci.s`) and transforming it into an executable program[cite: 201]. [cite_start]The goal was to produce a program that calculates and displays the first 38 numbers of the Fibonacci sequence using native machine instructions[cite: 54].
+This module documents the **ASM1** challenge, the entry point into the Advanced IBM Z Xplore badge. The challenge demystifies the compilation process by taking a raw Assembler source file (`fibonacci.s`) and transforming it into an executable program. The goal was to produce a program that calculates and displays the first 38 numbers of the Fibonacci sequence using native machine instructions.
 
 ---
 
 ## Key Highlights
 
 -   **The compilation Process:**
-    -   [cite_start]Used the `as` command to assemble the source code into a binary object file (`fibonacci.o`)[cite: 206, 207].
-    -   [cite_start]Used the `ld` command to link the object file with system libraries to create the final executable (`fibonacci`)[cite: 210, 211].
+    -   Used the `as` command to assemble the source code into a binary object file (`fibonacci.o`).
+    -   Used the `ld` command to link the object file with system libraries to create the final executable (`fibonacci`).
 -   **Assembler Logic:**
-    -   [cite_start]**Looping:** The code utilizes the `BCT` (Branch on Count) instruction to loop 38 times, decrementing a counter in Register 5[cite: 153].
-    -   [cite_start]**Data Movement:** Leveraged `MVI` and `MVC` instructions to move data and format characters within memory[cite: 149, 150].
-    -   [cite_start]**Output:** Since Assembler has no native "print" function, the program calls the `BPX1WRT` service to write results to standard output (stdout)[cite: 191, 192].
+    -   **Looping:** The code utilizes the `BCT` (Branch on Count) instruction to loop 38 times, decrementing a counter in Register 5.
+    -   **Data Movement:** Leveraged `MVI` and `MVC` instructions to move data and format characters within memory.
+    -   **Output:** Since Assembler has no native "print" function, the program calls the `BPX1WRT` service to write results to standard output (stdout).
 -   **Linkage Conventions:**
-    -   [cite_start]The code establishes "standard linkage," a convention allowing the shell to hand control to the program and receive it back upon completion[cite: 102].
+    -   The code establishes "standard linkage," a convention allowing the shell to hand control to the program and receive it back upon completion.
 
 ---
 
