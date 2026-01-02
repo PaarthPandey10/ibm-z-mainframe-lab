@@ -30,10 +30,10 @@
 
 ## What I Learned
 
-- [cite_start]**Zowe CLI:** How to install and use the command-line interface to interact with z/OS without needing a traditional 3270 terminal emulator[cite: 164].
-- [cite_start]**REXX:** Introduction to the "Restructured Extended Executor" language, known for its simplicity and power in the mainframe environment[cite: 26].
-- [cite_start]**TSO Address Spaces:** Understanding that interactive programs require a persistent address space (memory "ticket") to maintain state between commands[cite: 318].
-- [cite_start]**Interactive Commands:** Using `zowe tso send as` to send data to a running program, allowing for interactive sessions like the number guessing game[cite: 353].
+- **Zowe CLI:** How to install and use the command-line interface to interact with z/OS without needing a traditional 3270 terminal emulator.
+- **REXX:** Introduction to the "Restructured Extended Executor" language, known for its simplicity and power in the mainframe environment.
+- **TSO Address Spaces:** Understanding that interactive programs require a persistent address space (memory "ticket") to maintain state between commands.
+- **Interactive Commands:** Using `zowe tso send as` to send data to a running program, allowing for interactive sessions like the number guessing game.
 
 ---
 
