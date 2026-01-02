@@ -38,7 +38,7 @@
 
 ### ✅ Step 6: Workflow Overview
 *A full view of the VS Code environment showing the Zowe Explorer on the left, the editor in the center, and the context menu used to submit jobs to the mainframe.*
-![Step 6](./screenshots/03.jpg)
+![Step 6](./screenshots/06.png)
 
 ---
 
