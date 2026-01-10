@@ -11,7 +11,7 @@
 ---
 
 ## 2. Member Management & Attributes
-![Attributes and Members](02.png)
+![Attributes and Members](./screenshots/02.png)
 *This screenshot captures two key achievements:*
 1.  **Member Setup:** The `SOURCE` dataset now contains `PDSPART1` and `PDSPART2` (copied from public input) and `RECIPE` (renamed from `PDS1OUT` after running the JCL).
 2.  **Inspection:** The right-hand panel displays the attributes of `ZXP.PUBLIC.INPUT`, confirming technical details like the Volume (`VPWRKD`) and Record Format (`FB`).
@@ -19,13 +19,13 @@
 ---
 
 ## 3. Final Dataset Structure
-![Source Folder Content](03.png)
+![Source Folder Content](./screenshots/03.png)
 *A consolidated view of the `SOURCE` PDS. This verifies that the JCL successfully concatenated the parts to create the output, which was then manually renamed to `RECIPE` as per instructions.*
 
 ---
 
 ## 4. Validation
-![Job Success](04.png)
+![Job Success](./screenshots/04.png)
 *The final verification step. The screenshot shows the Job Output panel where the validation job (`@APDS1`) completed with `CC 0000`, indicating all criteria for the challenge were met successfully.*
 
 ---
