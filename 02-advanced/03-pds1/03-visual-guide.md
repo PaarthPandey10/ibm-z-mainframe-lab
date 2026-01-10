@@ -5,7 +5,7 @@
 ---
 
 ## 1. Environment Setup & filtering
-![Zowe Explorer View](01.png)
+![Zowe Explorer View](./screenshots/01.png)
 *Setting up the High Level Qualifier (HLQ) to locate personal datasets. This view confirms the existence of the `Z87191.JCL` and `Z87191.SOURCE` datasets before population.*
 
 ---
