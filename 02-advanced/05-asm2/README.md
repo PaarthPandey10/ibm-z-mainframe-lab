@@ -20,4 +20,30 @@ This module documents the **ASM2** challenge, which provides a practical introdu
     -   **Algorithm Updates:** Altered the loop logic to execute 10 times (previously 4) and increment the summation register by 5 (previously 1) during each iteration.
 -   **Execution & Validation:**
     -   **Compilation:** Successfully compiled and linked the modified Assembler program using the `ASMACL` procedure.
-    -   **Verification:** Validated the logic changes and register usage using the `CHKASM2` automated checker
+    -   **Verification:** Validated the logic changes and register usage using the `CHKASM2` automated checker.
+
+---
+
+## Technical Details
+
+-   **System:** IBM z/OS via Zowe Explorer
+-   **Language:** IBM High Level Assembler (HLASM)
+-   **Key Files:**
+    -   `ASM2PGM` (Modified Source Code)
+    -   `ASM2PGM` (JCL for Compile/Link/Go)
+    -   `CHKASM2` (Validation JCL)
+-   **Validation:** Job `ASM2PGM` ended with `CC 0000`, followed by successful `CHKASM2` verification.
+
+---
+
+## Contact
+
+For any questions or feedback, reach out:
+**Paarth Pandey**
+[LinkedIn](https://www.linkedin.com/in/paarth-pandey-13779529b/) | [GitHub](https://github.com/paarthpandey10) | paarthdxb@gmail.com
+
+---
+
+> Author: [Paarth Pandey](https://github.com/paarthpandey10)
+>
+> IBM Z Xplore - Advanced
