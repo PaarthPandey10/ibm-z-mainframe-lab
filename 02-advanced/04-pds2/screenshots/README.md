@@ -12,12 +12,12 @@ This folder contains screenshots verifying the successful completion of the PDS2
 
 ## Image Manifest
 
--   [cite_start]**01.png:** The `Z87191.SOURCE` dataset populated with the uploaded rock files (`ROCKS1`, `ROCKS2`, `ROCKS3`), ready for processing[cite: 44, 46].
--   **02.png:** The `MERGSORT` JCL script in the editor. [cite_start]Highlights the use of `&SYSUID` symbolics to dynamically point to the `SOURCE` (input) and `OUTPUT` (destination) datasets[cite: 56, 63].
--   [cite_start]**03.png:** Verification of the `ROCKSOUT` member content, confirming the sort utility successfully merged and alphabetized the rock lists (from "Amphibolite" to "Granodiorite")[cite: 151].
--   [cite_start]**04.png:** The `Z87191.OUTPUT` dataset view showing the member successfully renamed from `ROCKSOUT` to `PDS2OUT` as per challenge requirements[cite: 152].
--   **05.png:** The cleanup step. [cite_start]Displays the confirmation dialog for deleting the temporary `Z87191.PDS2.PUMPKIN` dataset[cite: 161].
--   **06.png:** The "JOBS" panel confirmation. [cite_start]Displays the successful execution of `MERGSORT` (CC 0000) and the final validation job `@APDS2` (CC 0000)[cite: 162].
+-   **01.png:** The `Z87191.SOURCE` dataset populated with the uploaded rock files (`ROCKS1`, `ROCKS2`, `ROCKS3`), ready for processing.
+-   **02.png:** The `MERGSORT` JCL script in the editor. Highlights the use of `&SYSUID` symbolics to dynamically point to the `SOURCE` (input) and `OUTPUT` (destination) datasets.
+-   **03.png:** Verification of the `ROCKSOUT` member content, confirming the sort utility successfully merged and alphabetized the rock lists (from "Amphibolite" to "Granodiorite").
+-   **04.png:** The `Z87191.OUTPUT` dataset view showing the member successfully renamed from `ROCKSOUT` to `PDS2OUT` as per challenge requirements.
+-   **05.png:** The cleanup step. Displays the confirmation dialog for deleting the temporary `Z87191.PDS2.PUMPKIN` dataset.
+-   **06.png:** The "JOBS" panel confirmation. Displays the successful execution of `MERGSORT` (CC 0000) and the final validation job `@APDS2` (CC 0000).
 
 ---
 
