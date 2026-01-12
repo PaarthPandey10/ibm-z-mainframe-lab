@@ -29,10 +29,9 @@ This module documents the **ASM2** challenge, which provides a practical introdu
 -   **System:** IBM z/OS via Zowe Explorer
 -   **Language:** IBM High Level Assembler (HLASM)
 -   **Key Files:**
-    -   `ASM2PGM` (Modified Source Code)
-    -   `ASM2PGM` (JCL for Compile/Link/Go)
+    -   `ASM2PGM` (Modified Source Code & JCL)
     -   `CHKASM2` (Validation JCL)
--   **Validation:** Job `ASM2PGM` ended with `CC 0000`, followed by successful `CHKASM2` verification.
+-   **Validation:** Job `ASM2PGM` ended with `CC 0000`, followed by successful `@ASM2` (CHKASM2) verification.
 
 ---
 
