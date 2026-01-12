@@ -6,21 +6,21 @@
 
 ## Overview
 
-This module documents the **PDS2** challenge, which advances from basic dataset interaction to active creation and management. [cite_start]The challenge focuses on the lifecycle of data on the mainframe: creating new Partitioned Data Sets (PDS), uploading local files to the system, processing them via JCL with symbolic variables, and performing cleanup operations to maintain a hygienic workspace[cite: 23, 87].
+This module documents the **PDS2** challenge, which advances from basic dataset interaction to active creation and management. The challenge focuses on the lifecycle of data on the mainframe: creating new Partitioned Data Sets (PDS), uploading local files to the system, processing them via JCL with symbolic variables, and performing cleanup operations to maintain a hygienic workspace.
 
 ---
 
 ## Key Highlights
 
 -   **Data Ingestion & Allocation:**
-    -   [cite_start]**Allocation:** Created a new Partitioned Data Set (`Z87191.PDS2.PUMPKIN`) to understand allocation parameters and naming conventions[cite: 91, 92].
-    -   [cite_start]**Uploading:** Uploaded local text files (`ROCKS1`, `ROCKS2`, `ROCKS3`) directly into the `SOURCE` PDS from the local machine[cite: 35, 36, 37, 44].
+    -   **Allocation:** Created a new Partitioned Data Set (`Z87191.PDS2.PUMPKIN`) to understand allocation parameters and naming conventions.
+    -   **Uploading:** Uploaded local text files (`ROCKS1`, `ROCKS2`, `ROCKS3`) directly into the `SOURCE` PDS from the local machine.
 -   **JCL & Data Processing:**
-    -   [cite_start]**Symbolics:** Utilized the `MERGSORT` JCL which leverages the `&SYSUID` symbolic variable to dynamically reference personal datasets (`SOURCE` and `OUTPUT`)[cite: 56, 63].
-    -   [cite_start]**Sorting:** Executed a sort operation that merged three distinct members into a single, alphabetized output member (`ROCKSOUT`)[cite: 60, 151].
+    -   **Symbolics:** Utilized the `MERGSORT` JCL which leverages the `&SYSUID` symbolic variable to dynamically reference personal datasets (`SOURCE` and `OUTPUT`).
+    -   **Sorting:** Executed a sort operation that merged three distinct members into a single, alphabetized output member (`ROCKSOUT`).
 -   **Hygiene & Validation:**
-    -   [cite_start]**Renaming:** Renamed the processed output member `ROCKSOUT` to `PDS2OUT` to meet validation criteria[cite: 152].
-    -   [cite_start]**Cleanup:** Deleted the temporary dataset (`Z87191.PDS2.PUMPKIN`) to demonstrate proper storage management before final validation[cite: 161].
+    -   **Renaming:** Renamed the processed output member `ROCKSOUT` to `PDS2OUT` to meet validation criteria.
+    -   **Cleanup:** Deleted the temporary dataset (`Z87191.PDS2.PUMPKIN`) to demonstrate proper storage management before final validation.
 
 ---
 
@@ -29,10 +29,10 @@ This module documents the **PDS2** challenge, which advances from basic dataset 
 -   **System:** IBM z/OS via Zowe Explorer
 -   **Data Structure:** Partitioned Data Sets (PDS/PDSE)
 -   **Key Files:**
-    -   [cite_start]`ROCKS1-3` (Uploaded Inputs) [cite: 35]
-    -   [cite_start]`MERGSORT` (JCL with Sort logic) [cite: 56]
-    -   [cite_start]`PDS2OUT` (Final Renamed Output) [cite: 152]
--   [cite_start]**Validation:** Job `@APDS2` ended with `CC 0000` (Condition Code Success)[cite: 162].
+    -   `ROCKS1-3` (Uploaded Inputs)
+    -   `MERGSORT` (JCL with Sort logic)
+    -   `PDS2OUT` (Final Renamed Output)
+-   **Validation:** Job `@APDS2` ended with `CC 0000` (Condition Code Success).
 
 ---
 
