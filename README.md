@@ -32,6 +32,8 @@ Advanced Badge Challenges.
 
 ```
 ibm-z-mainframe-lab/
+├── LICENSE
+├── README.md
 └── 01-fundamentals/
     ├── 01-vsc1/
     │   ├── screenshots/
@@ -61,9 +63,32 @@ ibm-z-mainframe-lab/
     │   ├── screenshots/
     │   ├── 07-visual-guide.md
     │   └── README.md
-    ├── LICENSE
+    └── README.md
+└── 02-advanced/
+    ├── 01-asm1/
+    │   ├── screenshots/
+    │   ├── 01-visual-guide.md
+    │   └── README.md
+    ├── 02-uss2/
+    │   ├── screenshots/
+    │   ├── 02-visual-guide.md
+    │   └── README.md
+    ├── 03-pds1/
+    │   ├── screenshots/
+    │   ├── 03-visual-guide.md
+    │   └── README.md
+    ├── 04-pds2/
+    │   ├── screenshots/
+    │   ├── 04-visual-guide.md
+    │   └── README.md
+    ├── 05-asm2/
+    │   ├── screenshots/
+    │   ├── 05-visual-guide.md
+    │   └── README.md
     └── README.md
 ```
+
+
 
 -----
 
